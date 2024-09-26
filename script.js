@@ -1,7 +1,7 @@
 document.getElementById('searchButton').addEventListener('click', function() {
     const location = document.getElementById('locationInput').value;
     const apiKey = '735c97408e73f5490f0d4d8479e5a5b0';
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
+    const url = `apikey`;
 
     fetch(url)
         .then(response => {
